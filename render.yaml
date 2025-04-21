@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: actual-gpt-linker
+    env: python
+    buildCommand: ""
+    startCommand: "python actual_gpt_linker.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
